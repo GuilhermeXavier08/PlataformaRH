@@ -3,9 +3,9 @@
 
 ### ⭐Participante:  
 <h6>DERICK GOMES CORREIA </h6>
-ENZO DONIZETTI BONATTI RODRIGUES 
-GUILHERME CAVALHIERI XAVIER 
-JULYA ESTRELA SILVA 
+<h6>ENZO DONIZETTI BONATTI RODRIGUES </h6>
+<h6>GUILHERME CAVALHIERI XAVIER </h6>
+<h6>JULYA ESTRELA SILVA </h6>
 
 <p align="center">
 <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/814b894a-d9b2-46cb-be80-b03cc9b63840" />
