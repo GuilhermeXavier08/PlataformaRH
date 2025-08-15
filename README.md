@@ -1,8 +1,8 @@
 <h1 align="center"> ## DOCUMENTAÇÃO   </h1>
- <h1 align="center"> Aplicativo da RH Connect </h1>
+<h1 align="center"> Aplicativo da RH Connect </h1>
 
 ### ⭐Participante:  
-DERICK GOMES CORREIA 
+<h1>DERICK GOMES CORREIA </h1>
 ENZO DONIZETTI BONATTI RODRIGUES 
 GUILHERME CAVALHIERI XAVIER 
 JULYA ESTRELA SILVA 
