@@ -138,7 +138,7 @@ Administrador
 <img width="1092" height="776" alt="Image" src="https://github.com/user-attachments/assets/367d264a-f4c3-489f-ae42-9dbd24f5d6ef" />
 </p>
 
--T ela de Edição de Vaga (Administrador)
+- Tela de Edição de Vaga (Administrador)
 <p align="center">
 <img width="1092" height="776" alt="Image" src="https://github.com/user-attachments/assets/367d264a-f4c3-489f-ae42-9dbd24f5d6ef" />
 </p>
