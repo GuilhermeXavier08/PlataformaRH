@@ -142,7 +142,7 @@ Administrador
 </p>
 
 <p align="center">
-<img width="1093" height="778" alt="Image" src="https://github.com/user-attachments/assets/62ee6428-8372-45e1-bb04-d93453e7c18c" />
+<img width="654" height="466" alt="Image" src="https://github.com/user-attachments/assets/5c17af46-5616-47ed-b576-d128d0b2d7c3" />
 </p>
 
 ## 8. Modelagem de Banco de Dados 
