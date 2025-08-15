@@ -19,9 +19,11 @@
 ### 1.1 Descrição  
 - O projeto envolve o desenvolvimento de um site de departamento de RH, que permite os usuários comuns se cadastrarem, visualizarem vagas e enviarem seus currículos além de permitir que exista um administrador que pode criar, editar e excluir vagas.  
 ### 1.2 Objetivo  
+
 <p align="center">
 <img width="572" height="313" alt="Image" src="https://github.com/user-attachments/assets/61aab7c9-66a5-49ac-a3c4-4fbedea6a1f2" />
 </p>
+
 ### 1.3 Escopo  
 - O sistema RH Connect será uma aplicação SPA (Single Page Application) desenvolvida em Angular para gestão de recrutamento. Ele permitirá que candidatos se cadastrem, enviem seus currículos e visualizem vagas, enquanto administradores poderão gerenciar vagas e visualizar currículos recebidos. 
 
@@ -99,21 +101,28 @@ Administrador
 - Login no Sistema: Permite que o usuário acesse o sistema com credenciais válidas. 
 
 ### 6.3 Diagrama de Fluxo 
+
 <p align="center">
 <img width="1213" height="649" alt="Image" src="https://github.com/user-attachments/assets/9d276a0e-9d3d-4d63-b1e7-378bd3a1a3e6" />
 </p>
+
 ### 6.4 Diagrama de Uso 
+
 <p align="center">
 <img width="881" height="620" alt="Image" src="https://github.com/user-attachments/assets/9283e3af-665c-4c99-af7f-731dd7067cb1" />
 </p>
+
 ## 7. Protótipos de Interface 
 
 ## 8. Modelagem de Banco de Dados 
 ### 8.1 Banco de Dados Relacional 
+
 <p align="center">
 <img width="868" height="787" alt="Image" src="https://github.com/user-attachments/assets/9079f31e-0ac6-47d2-9a9b-465f7499d26f" />
 </p>
+
 ## 9. Cronograma 
+
 <p align="center">
 <img width="767" height="277" alt="Image" src="https://github.com/user-attachments/assets/ce40b29d-dcaa-4464-bdd4-3c953aac25b1" />
 </p>
