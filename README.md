@@ -2,15 +2,16 @@
  <h1 align="center"> Aplicativo da RH Connect </h1>
 
 ### Participante: 
-|name|
+
 | -------- |
 | DERICK GOMES CORREIA |
 | ENZO DONIZETTI BONATTI RODRIGUES |
 | GUILHERME CAVALHIERI XAVIER |
 | JULYA ESTRELA SILVA |
 
+<p align="center">
 <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/814b894a-d9b2-46cb-be80-b03cc9b63840" />
-
+</p>
 <p align="center">
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
