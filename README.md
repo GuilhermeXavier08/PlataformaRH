@@ -123,7 +123,7 @@ Administrador
 <img width="1051" height="748" alt="Image" src="https://github.com/user-attachments/assets/f1ff37a1-b30a-41c4-ac7b-b2e991e113c3" />
 </p>
 
--Tela de Visualização de vagas
+- Tela de Visualização de vagas
 <p align="center">
 <img width="1051" height="748" alt="Image" src="https://github.com/user-attachments/assets/dad32520-cf3b-4bec-8ead-1b36fe82e647" /> 
 </p>
@@ -138,17 +138,17 @@ Administrador
 <img width="1092" height="776" alt="Image" src="https://github.com/user-attachments/assets/367d264a-f4c3-489f-ae42-9dbd24f5d6ef" />
 </p>
 
--Tela de Edição de Vaga (Administrador)
+-T ela de Edição de Vaga (Administrador)
 <p align="center">
 <img width="1092" height="776" alt="Image" src="https://github.com/user-attachments/assets/367d264a-f4c3-489f-ae42-9dbd24f5d6ef" />
 </p>
 
--Tela de Criação de Vaga
+- Tela de Criação de Vaga
 <p align="center">
 <img width="1094" height="776" alt="Image" src="https://github.com/user-attachments/assets/364e9a8c-887c-41ef-b71a-e267b9905144" />
 </p>
 
-Tela de Edição e Exclusão de Vagas
+- Tela de Edição e Exclusão de Vagas
 <p align="center">
 <img width="654" height="466" alt="Image" src="https://github.com/user-attachments/assets/5c17af46-5616-47ed-b576-d128d0b2d7c3" />
 </p>
