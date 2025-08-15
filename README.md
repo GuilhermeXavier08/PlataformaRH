@@ -113,6 +113,37 @@ Administrador
 </p>
 
 ## 7. Protótipos de Interface 
+<p align="center">
+<img width="1052" height="751" alt="Image" src="https://github.com/user-attachments/assets/a13cd294-721c-45d3-a809-c1fd0c874a21" />
+</p>
+
+<p align="center">
+<img width="1051" height="748" alt="Image" src="https://github.com/user-attachments/assets/f1ff37a1-b30a-41c4-ac7b-b2e991e113c3" />
+</p>
+
+<p align="center">
+<img width="1051" height="748" alt="Image" src="https://github.com/user-attachments/assets/dad32520-cf3b-4bec-8ead-1b36fe82e647" /> />
+</p>
+
+<p align="center">
+<img width="1048" height="744" alt="Image" src="https://github.com/user-attachments/assets/2300db79-51fa-4bd4-bcfc-a2b984f3def1" />
+</p>
+
+<p align="center">
+<img width="1092" height="776" alt="Image" src="https://github.com/user-attachments/assets/367d264a-f4c3-489f-ae42-9dbd24f5d6ef" />
+</p>
+
+<p align="center">
+<img width="1092" height="776" alt="Image" src="https://github.com/user-attachments/assets/367d264a-f4c3-489f-ae42-9dbd24f5d6ef" />
+</p>
+
+<p align="center">
+<img width="1094" height="776" alt="Image" src="https://github.com/user-attachments/assets/364e9a8c-887c-41ef-b71a-e267b9905144" />
+</p>
+
+<p align="center">
+<img width="1093" height="778" alt="Image" src="https://github.com/user-attachments/assets/62ee6428-8372-45e1-bb04-d93453e7c18c" />
+</p>
 
 ## 8. Modelagem de Banco de Dados 
 ### 8.1 Banco de Dados Relacional 
