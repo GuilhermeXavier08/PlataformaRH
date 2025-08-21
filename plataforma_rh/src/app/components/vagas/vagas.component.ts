@@ -1,10 +1,24 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Vaga } from 'src/app/models/vaga.model';
+import { VagaService } from 'src/app/services/vagas.service';
 
 @Component({
   selector: 'app-vagas',
   templateUrl: './vagas.component.html',
-  styleUrls: ['./vagas.component.scss']
+  styleUrls: ['./vagas.component.scss'],
 })
-export class VagasComponent {
+export class VagasComponent implements OnInit {
+  public vagas: Vaga[] = [];
 
+  constructor(private _vagaService: VagaService) {}
+  ngOnInit(): void {
+    this.listarVagas();
+  }
+  listarVagas() {
+    this._vagaService.getVagas().subscribe((retornaVaga) => {
+      this.vagas = retornaVaga.map((item: any) => {
+        return Vaga.fromMap(item);
+      });
+    });
+  }
 }
