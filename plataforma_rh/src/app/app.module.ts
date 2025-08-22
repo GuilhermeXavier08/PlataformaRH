@@ -1,29 +1,28 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CurriculoComponent } from './components/curriculo/curriculo.component';
-import { VagasComponent } from './components/vagas/vagas.component';
-import { HeaderComponent } from './templates/header/header.component';
-import { FooterComponent } from './templates/footer/footer.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { HttpClientModule } from '@angular/common/http';
-import { PainelVagasComponent } from './components/painel-vagas/painel-vagas.component';
+import { HomeComponent } from './pages/home/home.component';
+import { LoginComponent } from './pages/login/login.component';
+import { RegistroComponent } from './pages/registro/registro.component';
 import { FormsModule } from '@angular/forms';
-import { PainelCurriculosComponent } from './components/painel-curriculos/painel-curriculos.component';
+import { HeaderComponent } from './template/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CurriculoComponent,
-    VagasComponent,
-    HeaderComponent,
-    FooterComponent,
-    PainelVagasComponent,
-    PainelCurriculosComponent,
+    HomeComponent,
+    LoginComponent,
+    RegistroComponent,
+    HeaderComponent
   ],
-  imports: [BrowserModule, AppRoutingModule, NgbModule, HttpClientModule, FormsModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule, //fazer requisições http
+    FormsModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

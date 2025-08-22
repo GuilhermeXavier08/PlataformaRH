@@ -1,23 +1,22 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { InicioComponent } from './component/inicio/inicio.component';
-import { CurriculoComponent } from './component/curriculo/curriculo.component';
-import { VagaComponent } from './component/vaga/vaga.component';
-import { PainelVagasComponent } from './component/painel-vagas/painel-vagas.component';
-import { PainelCurriculosComponent } from './component/painel-curriculos/painel-curriculos.component';
+import { RegistroComponent } from './pages/registro/registro.component';
+import { LoginComponent } from './pages/login/login.component';
+import { AuthGuard } from './guards/auth.guard';
+import { HomeComponent } from './pages/home/home.component';
 
 const routes: Routes = [
-  { path: 'inicio', component: InicioComponent },
-  { path: 'vagas', component: VagaComponent },
-  { path: 'painel_vagas', component: PainelVagasComponent },
-  { path: 'curriculos', component: CurriculoComponent },
-  { path: 'painel_curriculos', component: PainelCurriculosComponent },
-  { path: '', redirectTo: '/inicio', pathMatch: 'full' },
-  { path: '**', redirectTo: '/inicio' },
+  { path: 'login', component: LoginComponent },
+  { path: 'registro', component: RegistroComponent },
+  {
+    path: 'home', component: HomeComponent, canActivate: [AuthGuard], data: { perfil: ['comum', 'admin'] },
+  },
+
+  { path: '', redirectTo: '/login', pathMatch: 'full' },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
