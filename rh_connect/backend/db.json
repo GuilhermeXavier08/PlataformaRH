@@ -1,5 +1,36 @@
 {
-  "vagas": [],
-  "curriculos": [],
-  "usuarios": []
+  "vagas": [
+    {
+      "id": "01",
+      "nome": "teste2",
+      "foto": "",
+      "descricao": "teste2",
+      "salario": "10001"
+    }
+  ],
+  "curriculos": [
+    {
+      "id": "01",
+      "nome": "guilherme",
+      "idade": "017",
+      "formacao": "aaaa",
+      "foto": ""
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "4f00",
+      "nome": "guilherme",
+      "email": "guilherme@email.com",
+      "senha": "123456",
+      "tipoUsuario": "comum"
+    },
+    {
+      "id": "baf5",
+      "nome": "admin",
+      "email": "admin@email.com",
+      "senha": "123456",
+      "tipoUsuario": "admin"
+    }
+  ]
 }
