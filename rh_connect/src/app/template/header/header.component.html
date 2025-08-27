@@ -1,0 +1,24 @@
+<nav class="navbar">
+  <a routerLink="/">RH Connect</a>
+
+  <div class="navItens" *ngIf="usuario">
+    <!-- 🔹 Sempre visível para qualquer usuário -->
+    <a routerLink="/vagas" class="navLink">Vagas</a>
+
+    <!-- 🔹 Só admin -->
+    <a *ngIf="usuario?.tipoUsuario === 'admin'" routerLink="/curriculos" class="navLink">Currículos</a>
+    <a *ngIf="usuario?.tipoUsuario === 'admin'" routerLink="/painel-vagas" class="navLink">Painel de Vagas</a>
+
+    <!-- 🔹 Só comum -->
+    <a *ngIf="usuario?.tipoUsuario === 'comum'" routerLink="/painel-curriculos" class="navLink">Painel-Currículos</a>
+
+    <!-- 🔹 Logout -->
+    <a (click)="logout()" class="navLink sair">Sair</a>
+  </div>
+
+  <!-- Se não estiver logado -->
+  <div class="navItens" *ngIf="!usuario">
+    <a routerLink="/login" class="navLink">Login</a>
+    <a routerLink="/registro" class="navLink">Registrar</a>
+  </div>
+</nav>

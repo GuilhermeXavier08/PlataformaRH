@@ -1,0 +1,40 @@
+<div class="login-container">
+  <div class="login-card">
+    <h2>Entrar</h2>
+
+    <form (ngSubmit)="login()">
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input
+          id="email"
+          type="email"
+          [(ngModel)]="credenciais.email"
+          name="email"
+          placeholder="Digite seu email"
+          required
+        />
+      </div>
+
+      <div class="input-group">
+        <label for="senha">Senha</label>
+        <input
+          id="senha"
+          type="password"
+          [(ngModel)]="credenciais.senha"
+          name="senha"
+          placeholder="Digite sua senha"
+          required
+        />
+      </div>
+
+      <button type="submit" class="btn-login">Entrar</button>
+    </form>
+
+    <p class="registro-link">
+      Não possui conta?
+      <a routerLink="/registro">Criar conta</a>
+    </p>
+
+    <p *ngIf="erro" class="erro">{{ erro }}</p>
+  </div>
+</div>
